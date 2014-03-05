@@ -16,3 +16,10 @@ To embed the Appforma promotion widget on your website, add the following to any
   }
 </script>
 ```
+
+### Available options: ###
+| Option | Description |
+| ------ | ----------- |
+| acc_hash   | Your Appforma account embed hash. You can find it in the publish channels page in Appforma. |
+| placement | Where you want the widget to appear (left / center / right) |
+
