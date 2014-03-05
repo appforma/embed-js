@@ -39,6 +39,7 @@
     tab.setAttribute('id', 'maverick_tab');
     tab.setAttribute('href', '#');
     tab.style.display = 'none';
+    tab.className += "tab-" + settings.placement;
     document.body.appendChild(tab);
 
     overlay = document.createElement('div');
@@ -80,6 +81,7 @@
     link.type = 'text/css';
     link.href = css_url;
     link.media = 'all';
+    
     head.appendChild(link);
   }
 
@@ -87,6 +89,7 @@
     domain = 'www.appforma.com';
     server_url = '//' + domain + '/external/accounts/embed_show?embed_hash=' + settings.acc_hash;
     css_url = 'https://s3.amazonaws.com/appforma_static/embed/maverick.embed.css';
+    //css_url = 'maverick.embed.css';
     css_id = 'maverick_css_holder';
   }
 

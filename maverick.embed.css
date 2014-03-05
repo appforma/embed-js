@@ -4,13 +4,24 @@
   overflow:hidden;
   position: fixed;
   text-indent:-5000px;
-  top: 10%;
   width: 120px;
   z-index: 10000;
   background-image: url(https://s3.amazonaws.com/appforma_static/embed/embed_image.png);
   background-size: 111px 93px;
   background-repeat: no-repeat;
   background-position: center;
+ }
+
+ .tab-left {
+  top: 10%;
+ }
+ .tab-right {
+  top: 10%;
+  right:10px;
+ }
+
+ .tab-center {
+  left: 48%;
  }
 
 #maverick_scrim {
