@@ -10,7 +10,7 @@ To embed the Appforma promotion widget on your website, add the following to any
 <script type="text/javascript">
   if (typeof(Maverick) !== "undefined") {
     Maverick.init({
-      acc_hash: "f1ec7ee7d2719555ba6d428fee62837a",
+      acc_hash: "1234556778899",
       placement: "right"
     });
   }
